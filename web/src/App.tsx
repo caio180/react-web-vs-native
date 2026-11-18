@@ -32,6 +32,7 @@ function App() {
 
       <p>Senha</p>
       <input
+      type='password'
         placeholder='Crie uma senha'
         value={senha}
         onChange={(e) => setsenha(e.target.value) }
